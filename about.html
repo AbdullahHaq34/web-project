@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Velocity Motors</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav a {
+  color: #ddd;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: #ff6600;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links li {
+  margin: 10px 0;
+}
+
+.links a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: white;
+}
+.mission-vision, .leadership, .testimonials {
+  background-color: #ffffff;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.team-member {
+  text-align: center;
+  max-width: 200px;
+}
+
+.team-member img {
+  width: 100%;
+  border-radius: 50%;
+  height: auto;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.testimonials blockquote {
+  border-left: 5px solid #ff6600;
+  margin: 20px 0;
+  padding-left: 15px;
+  font-style: italic;
+}
+
+.testimonials cite {
+  display: block;
+  margin-top: 5px;
+  font-size: 0.9em;
+  color: #555;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>About Velocity Motors</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cars.html">Our Cars</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="history">
+    <h2>Our History</h2>
+    <p>
+      Founded in 1995, Velocity Motors started as a small workshop in Detroit. With a passion for speed, design, and technology,
+      we grew into one of the most respected performance car manufacturers in North America. Our cars are built with precision,
+      passion, and the pursuit of excellence.
+    </p>
+    <p>
+      Today, we produce electric and hybrid performance vehicles that blend cutting-edge engineering with sustainable innovation.
+    </p>
+  </section>
+
+  <section class="gallery">
+    <h2>Our Legacy in Pictures</h2>
+    <div class="image-grid">
+      <img src="images/factory.jpg" alt="Our factory in 1995">
+      <img src="images/first-model.jpg" alt="First car model">
+      <img src="images/team.jpg" alt="Founding team">
+      <img src="images/modern-showroom.jpg" alt="Current showroom">
+    </div>
+  </section>
+
+  <section class="links">
+    <h2>Explore More</h2>
+    <ul>
+      <li><a href="https://www.instagram.com/velocitymotors" target="_blank">Instagram</a></li>
+      <li><a href="https://www.velocitymotors.com/dealers" target="_blank">Find a Dealer</a></li>
+      <li><a href="https://www.velocitymotors.com/test-drive" target="_blank">Book a Test Drive</a></li>
+    </ul>
+  </section>
+  <section class="leadership">
+    <h2>Meet the Leadership Team</h2>
+    <div class="team-grid">
+      <div class="team-member">
+        <img src="images/ceo.jpg" alt="CEO">
+        <h3>Jordan Blake</h3>
+        <p>CEO & Founder</p>
+      </div>
+      <div class="team-member">
+        <img src="images/cto.jpg" alt="CTO">
+        <h3>Avery Lin</h3>
+        <p>Chief Technology Officer</p>
+      </div>
+      <div class="team-member">
+        <img src="images/cmo.jpg" alt="CMO">
+        <h3>Samira Patel</h3>
+        <p>Chief Marketing Officer</p>
+      </div>
+    </div>
+  </section>
+  <section class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <blockquote>
+      “Velocity Motors completely changed the way I think about driving. Their electric sports coupe is unmatched.”
+      <cite>– Marcus D., Los Angeles</cite>
+    </blockquote>
+    <blockquote>
+      “I’ve owned cars from major brands, but nothing compares to the design and performance of my Velocity VX.”
+      <cite>– Leah S., New York</cite>
+    </blockquote>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Velocity Motors. All rights reserved.</p>
+  </footer>
+</body>
+</html>
